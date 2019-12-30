@@ -22,7 +22,7 @@ Command | Effect
 ------------ | -------------
 init | Initialize the file system (creates the `fat.part` file) or resets it.
 load | Load the FAT table (only) to the program memory.
-ls [PATH/DIR] | List the DIR directory. If DIR is a file, an error message is shown.
+ls [PATH/DIR] | List the DIR directory. If DIR is a file or doesn't exists at all, an error message is shown.
 mkdir [PATH/DIR] | Creates a directory with DIR name, if any of the PATH parts are not existant, the program creates it. If the DIR directory already exists (either as a file or a directory), an error message is shown.
 create [PATH/FILE] | Creates a file with FILE name, if FILE already exists (either as a file or a directory), an error message is shown.
 unlink [PATH/FILE] | Deletes a file or a directory with FILE name. If FILE does not exists, an error message is shown.
