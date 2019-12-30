@@ -14,7 +14,7 @@ The specification of the FAT is:
 * 1024 bytes cluster
 * 4096 clusters
 
-Therefore, this FAT can store a raw data size of 4.194.304 bytes (4 MiB).
+Therefore, this FAT occupies (whether it does have anything stored or not) a raw data size of 4.194.304 (2 * 1024 * 4096) bytes (4 MiB).
 
 The commands implemented in the shell are:
 
