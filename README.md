@@ -26,8 +26,8 @@ ls [PATH/DIR] | List the DIR directory. If DIR is a file, an error message is sh
 mkdir [PATH/DIR] | Creates a directory with DIR name, if any of the PATH parts are not existant, the program creates it. If the DIR directory already exists (either as a file or a directory), an error message is shown.
 create [PATH/FILE] | Creates a file with FILE name, if FILE already exists (either as a file or a directory), an error message is shown.
 unlink [PATH/FILE] | Deletes a file or a directory with FILE name. If FILE does not exists, an error message is shown.
-write <STRING> [PATH/FILE] | Writes (overwriting) STRING in the FILE file. If FILE does not exists as a file or is a directory, an error message is shown.
-append <STRING> [PATH/FILE] | Writes (appending) STRING in the FILE file. If FILE does not exists as a file or is a directory, an error message is shown.
+write "STRING" [PATH/FILE] | Writes (overwriting) STRING in the FILE file. If FILE does not exists as a file or is a directory, an error message is shown.
+append "STRING" [PATH/FILE] | Writes (appending) STRING in the FILE file. If FILE does not exists as a file or is a directory, an error message is shown.
 read [PATH/FILE] | Prints in the standard output the contents of the FILE file. If FILE does not exists as a file or is a directory, an error message is shown.
 
 ### Compiling & Running
